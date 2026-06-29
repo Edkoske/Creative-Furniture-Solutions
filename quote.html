@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Request a Quote | Creative Furniture Solutions</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+  </head>
+  <body>
+    <header class="site-header sticky">
+      <nav class="navbar container">
+        <a href="index.html" class="logo"><span class="logo-mark">C</span><span>Creative Furniture Solutions</span></a>
+        <button class="menu-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="testimonials.html">Testimonials</a>
+          <a href="faq.html">FAQs</a>
+          <a href="contact.html">Contact</a>
+          <a href="quote.html" class="btn btn-small active">Request Quote</a>
+        </div>
+        <div class="nav-icons">
+          <button class="icon-btn" aria-label="Search">⌕</button>
+          <button class="icon-btn" aria-label="Wishlist">♡</button>
+          <button class="icon-btn" aria-label="Cart">Bag</button>
+          <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">☼</button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-hero">
+      <section class="container">
+        <h1>Request a Custom Furniture Quote</h1>
+        <p>Share your room, preferred materials, dimensions, budget, and timeline. We will respond with a clear next step.</p>
+      </section>
+    </main>
+
+    <section class="section container quote-grid">
+      <div class="contact-card">
+        <h2>What to Include</h2>
+        <p>Room type, measurements, inspiration references, quantity, preferred finishes, delivery location, and ideal completion date.</p>
+        <p>For larger commercial projects, include floor plans or a short description of the space and user needs.</p>
+      </div>
+      <form class="contact-card form">
+        <label>Full Name <input type="text" name="name" required /></label>
+        <label>Email <input type="email" name="email" required /></label>
+        <label>Phone <input type="tel" name="phone" /></label>
+        <label>Furniture Category <select name="category"><option>Living Room</option><option>Bedroom</option><option>Dining</option><option>Office</option><option>Outdoor</option><option>Full Interior</option></select></label>
+        <label>Budget Range <select name="budget"><option>$1,000 - $3,000</option><option>$3,000 - $8,000</option><option>$8,000 - $20,000</option><option>$20,000+</option></select></label>
+        <label>Project Details <textarea name="details" required></textarea></label>
+        <button class="btn" type="submit">Submit Quote Request</button>
+      </form>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="logo footer-logo"><span class="logo-mark">C</span><span>Creative Furniture Solutions</span></a>
+          <p>Premium furniture for inspiring interiors.</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/quote.js"></script>
+  </body>
+</html>
